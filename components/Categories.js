@@ -14,7 +14,7 @@ const Categories = () => {
               onClick={() => {
                 router.push(`/?genre=${key}`)
               }}
-              className="last:pr-24 select-none cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white"
+              className="active:text-red-500 last:pr-24 select-none cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white"
             >
               {title}
             </h2>
