@@ -35,4 +35,6 @@ const Thumbnail = forwardRef(({ video }, ref) => {
     </div>
   )
 })
+
+Thumbnail.displayName = "Thumbnail"
 export default Thumbnail
