@@ -6,7 +6,7 @@ const Categories = () => {
 
   return (
     <div className="relative">
-      <div className="flex justify-evenly px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 py-2 overflow-x-scroll scrollbar-hide">
+      <div className=" flex px-10 sm:px-20 py-2 text-2xl whitespace-nowrap space-x-10 sm:space-x-20  overflow-x-scroll scrollbar-hide">
         {Object.entries(requests).map(([key, { title, url }]) => {
           return (
             <h2
